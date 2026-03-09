@@ -15,7 +15,7 @@ export const getOrCreateHostingConfig = async ():
         if(existing?.subdomain) return {subdomain: existing.subdomain};
 
         const subdomain = createHostingSlug();
-
+ 
         try {
             const created = await puter.hosting.create(subdomain,'.');
 
