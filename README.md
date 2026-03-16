@@ -1,7 +1,6 @@
 ![readme-hero](https://github.com/user-attachments/assets/0fbfb67b-a310-4bf9-800b-1d31e0b6af5e)
 <div align="center">
-
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Puter](https://img.shields.io/badge/Puter-8A2BE2?style=for-the-badge&logo=puter&logoColor=white)
