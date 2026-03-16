@@ -1,24 +1,34 @@
-# Introduction 
+![readme-hero](https://github.com/user-attachments/assets/0fbfb67b-a310-4bf9-800b-1d31e0b6af5e)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/Puter-000000?style=for-the-badge&logo=puter&logoColor=white" alt="Puter" />
+  <br />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Gemini-8E75C2?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/CodeRabbit-000000?style=for-the-badge&logo=coderabbit&logoColor=white" alt="CodeRabbit" />
+</p>
+
+# ✨ Introduction 
 AI-powered architectural visualization SaaS built with React, TypeScript, and Puter. Use AI models from Claude to Gemini to transform 2D floor plans into photorealistic 3D renders with permanent hosting and persistent metadata. This project features 2D-to-3D photorealistic rendering, serverless workers, high-performance KV storage, and a global community feed.
 
 ## ⚙️ Tech Stack
-React is a popular JavaScript library for building user interfaces, specifically for creating single-page applications with a component-based architecture.
+👉React is a popular JavaScript library for building user interfaces, specifically for creating single-page applications with a component-based architecture.
 
-Vite is a next-generation frontend tool that provides an extremely fast development environment and optimized build process for modern web projects.
+👉Vite is a next-generation frontend tool that provides an extremely fast development environment and optimized build process for modern web projects.
 
-TypeScript is a strongly typed superset of JavaScript that adds static types, helping developers catch errors early and write more maintainable code.
+👉TypeScript is a strongly typed superset of JavaScript that adds static types, helping developers catch errors early and write more maintainable code.
 
-TailwindCSS is a utility-first CSS framework that allows for rapid UI development by applying pre-defined classes directly in your markup.
+👉TailwindCSS is a utility-first CSS framework that allows for rapid UI development by applying pre-defined classes directly in your markup.
 
-Puter is the underlying cloud computing platform and "Internet OS" that provides the infrastructure; including serverless Workers, permanent file storage, key-value (KV) databases, and hosted AI models.
+👉Puter is the underlying cloud computing platform and "Internet OS" that provides the infrastructure; including serverless Workers, permanent file storage, key-value (KV) databases, and hosted AI models.
 
-Puter.js is the official JavaScript SDK that allows developers to interact with those cloud services directly from the frontend.
+👉Puter.js is the official JavaScript SDK that allows developers to interact with those cloud services directly from the frontend.
 
-CodeRabbit is an AI-powered code review platform that provides deep insights and automated suggestions to improve code quality and security.
+👉CodeRabbit is an AI-powered code review platform that provides deep insights and automated suggestions to improve code quality and security.
 
-Junie by JetBRains is an AI-driven coding assistant integrated into the development environment to help automate complex logic, refactoring, and prompt engineering.
-
-Claude and Gemini are state-of-the-art large language models used to power the architectural transformation and image generation logic within the application.
+👉Claude and Gemini are state-of-the-art large language models used to power the architectural transformation and image generation logic within the application.
 
 ## Features
 
@@ -39,32 +49,38 @@ Claude and Gemini are state-of-the-art large language models used to power the a
 👉 Modern Export Functionality: High-performance tools to download and move AI-generated renders into real-world presentations and workflows.
 
 
-🤸 Quick Start
+## 🤸 Quick Start
 Follow these steps to set up the project locally on your machine.
 
-Prerequisites
+## Prerequisites
 
 Make sure you have the following installed on your machine:
+* **Git**
+* **Node.js**
+* **npm** (Node Package Manager)
 
-Git
-Node.js
-npm (Node Package Manager)
-Cloning the Repository
+## Getting Started
 
-git clone https://github.com/adrianhajdin/roomify
+### 1. Cloning the Repository
+```bash
+git clone <your-repository-url>
 cd roomify
-Installation
+```
 
+###  2.Installation
 Install the project dependencies using npm:
-
+```bash
 npm install
-Set Up Environment Variables
-
+```
+### 3. Set Up Environment Variables
 Create a new file named .env in the root of your project and add the following content:
-
-VITE_PUTER_WORKER_URL=""
-Replace the placeholder values with your real credentials. You can get these by signing up at: Puter.com.
-
-Running the Project
-
+```bash
+VITE_PUTER_WORKER_URL="your_actual_worker_url_here"
+```
+Note: Replace the placeholder values with your real credentials. You can get these by signing up at Puter.com.
+### 4. Running the Project
+Start the development server:
+```bash
 npm run dev
+```
+
